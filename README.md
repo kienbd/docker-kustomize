@@ -1,1 +1,1 @@
-`kubectl` and `kustomize` Docker Image
+`aws`, `kubectl` and `kustomize` Docker Image
