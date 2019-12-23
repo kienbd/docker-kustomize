@@ -6,6 +6,7 @@ ENV KUBECTL_VERSION=1.16.4 \
 WORKDIR /app
 
 RUN apk -v --update add --no-cache \
+        sed \
         curl \
         bash \
         python \
