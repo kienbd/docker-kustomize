@@ -7,6 +7,7 @@ WORKDIR /app
 
 RUN apk -v --update add --no-cache \
         sed \
+        grep \
         curl \
         bash \
         python \
